@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        class Rectangle {
+            height = "";
+
+            set_height() {
+                this.height = "200";
+            }
+
+            get_height() {
+                console.log(this.height);
+            }
+
+            width = "";
+
+            set_width() {
+                this.width = "100";
+            }
+
+            get_width() {
+                console.log(this.width);
+            }
+        }
+
+        var object = new Rectangle();
+
+        object.set_height();
+        object.set_width();
+
+        document.write(object.height + "<br>")
+        document.write(object.width)
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
